@@ -366,7 +366,7 @@ class ExamplesWordLists {
             new WorldScene(300, 600).placeImageXY(new TextImage("asd", 18, Color.BLACK), 150, 300));
   }
 
-  // test fro Isactive
+  // test for Inactive
   boolean testIsActive(Tester t) {
     return 
         //testing an active word
@@ -388,7 +388,7 @@ class ExamplesWordLists {
         //checking an empty list
         t.checkExpect(this.mt.anyActive(), false);
   }
-  
+
   //renders image of world
   boolean testBigBang(Tester t) {
     ZTypeWorld world = new ZTypeWorld(new MtLoWord(), 0);
